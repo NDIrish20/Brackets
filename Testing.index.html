@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Learning Code</title>
+    
+  </head>
+
+ 
+ <body>
+ 
+ <h1 id="top">Welcome to my First Webpage</h1>
+			<p><i><b>This is an HTML page that I created in TextEdit</b></i></p>
+				<hr />
+  <p> <q>The moon is drifting away from Earth</q></p>
+  <p><b><abbr title="Professor">Prof</abbr></b> Stephen Hawking is a theoretical physicis and cosmologist.</p>
+  <p><cite>A Brief History of Time</cite> by Stephen Hawking has sold over ten million copies worldwide.</p>
+  <p>A <dfn>black hole</dfn> is a region of space from which nothing, not even light, can escape.</p>
+  
+  
+  <p>It was the <del>worst</del> <ins>best</ins> idea she ever had.</p>
+  <br>
+  <p>Laptop computer</p>
+  <p><s>Was $995</s></p>
+  <p>Now only $375</p>
+  
+  
+  
+   <d1>
+     <dt>remontant</dt>
+      <dd>blooming more than once in a season</dd>
+     <dt>foray</dt>
+       <dd>a quick raid, usually for the purpose of taking plunder</dd>
+       <dd>an initial venture</dd>
+   </d1> 
+  
+  
+    <ul>
+        <li><a href="nut.index.html" target="_blank">Nut Roster</a></li>
+        <li><a href="Resume.index.html">My Resume</a></li>
+     
+     </ul>
+  
+   <p>If you have any questions please <a href="mailto:lehmanc97@gmail.com">Email Chris</a></p>
+  
+  <hr />
+  
+  <h1 id="top"><u>Film-Making Terms</u></h1>
+      <a href="#arc-shot">Arc Shot</a>
+      <a href="#interlude">Interlude</a>
+      <a href="#prologue">Prologue</a>
+   <h3 id="arc-shot">Arc Shot</h3>
+   
+          <p>A shot in which the subject is photographed by an encircling or moving camera</p>
+   
+  <h3 id="interlude">Interlude</h3>
+  
+          <p>A brief, intervening film scene or sequence, not specifically tied to the plot, that appears within a film</p>
+  
+  <h3 id="prologue">Prologue</h3>
+  
+          <p>A speech, preface, introduction, or brief scene preceding the main action or plot of a film; contrast to the epilogue</p>
+  <a href="#top">Top</a>
+   
+  
+  <hr>
+ 
+  <h1><u>Images</u></h1>
+  
+  <figure>
+  <img src="baseball.jpg" height="100px" width="100px" />
+   <img src="baseball(2).PNG" height="100px" width="100px" />
+     
+   <p> <figcaption>Me up to bat. At the left, I am hitting <br> in the first game of my high school <br> career and on the right, I am up to the plate during a Saturday game sophomore year.</figcaption>  </p>
+  </figure>
+  
+  <hr>
+     <p>
+         <img src="baseball.jpg" height="100px" width="100px" />
+         <img src="baseball(2).PNG" height="100px" width="100px" />
+  </p>
+  <hr>
+  <h1>Tables</h1>
+     <table>
+      
+      <tr>
+         <th></th>
+         <th>Saturday</th>
+         <th>Sunday</th>
+      
+      </tr>
+  
+      <tr>
+         <th>Tickets Sold</th>
+       <td>120</td>
+         <td>135</td>
+      </tr>
+  
+      <tr>
+         <th>Total Sales</th>
+         <td>$600</td>
+         <td>$675</td>
+      
+      
+      </tr>
+  
+  
+  </table>
+  <br>
+  <br>
+  <br>
+  
+  <table width="500" border="2" bgcolor="#efefef">
+    
+   <thead>
+   <tr>
+       <th></th>
+       <th>9am</th>
+       <th>10am</th>
+       <th>11am</th>
+       <th>12pm</th>
+    
+    </tr>
+   </thead>
+    <tr>
+       <th>Monday</th>
+       <td colspan="2" rowspan="2">Geography</td>
+       <td>Math</td>
+       <td>Art</td>
+   
+   </tr>
+   
+   <tr>
+      <th>Tuesday</th>
+      <td>Gym</td>
+      <td>Home Ec</td>
+      
+   </tr>
+  
+  
+  
+  </table>
+  
+ <hr>
+   <h1>Forms</h1>
+  
+   <form>
+    <p><b><u>Username:</u></b>
+       <input type="text" name="username" maxlength="30" placeholder="Your username here"/>
+    </p>
+    <p><b><u>Password:</u></b>
+       <input type="password" name="password" maxlength="15" />    
+    </p>
+  </form>
+    <br>
+    <br>
+    
+  <form>
+  
+     <p>What did you think of the gig?</p>
+         <textarea name="comments" cols="20" rows="5">Enter your comments...</textarea>
+  
+  </form>
+  <br>
+  
+  <form>
+    <p>Please select your favorite genre: <br>
+      <input type="radio" name="genre" value="Rock" checked="checked" /> Rock
+      <input type="radio" name="genre" value="Pop" /> Pop
+      <input type="radio" name="genre" value="Jazz" /> Jazz
+   </p>
+   
+  </form>
+  <br>
+  
+  <form>
+    <p>Please select your favorite music service(s): <br>
+      <input type="checkbox" name="service" value="iTunes" /> iTunes
+      <input type="checkbox" name="service" value="SoundCloud" /> SoundCloud
+      <input type="checkbox" name="service" value="Spotify" /> Spotify
+   </p>
+   
+  </form>
+  <br>
+  
+  
+   <p>What Notre Dame website do you use most often?</p>
+      <select name="websites" size="2" multiple="multiple">
+       <option value="InsideND">InsideND</option>
+         <option value="Sakai">Sakai</option>
+         <option value="FYOS">First Year of Studies</option>
+   </select>
+  
+  <br>
+  
+    <form action="http://example.com/upload.php" target="_blank" method="post">
+      <p>Upload your song in MP3 format:</p>
+         <input type="file" name="user-song" /> <br>
+         <input type="submit" name="Upload" value="Upload" />
+  </form>
+  <br>
+  
+  <form>
+    <p>Subscribe to our email list:</p> <br>
+      <input type="text" name="email-list" />
+         <input type="image" src="baseball.jpg" height="100" width="100"/>
+  </form>
+  
+   <br>
+  <label>Age: <input type="text" name="age" /></label>
+  <br>
+  Gender:
+  <input id="female" type="radio" name="gender" value="f" />
+       <label for="female">Female</label>
+  <input id="male" type="radio" name="gender" value="m" />
+       <label for="male">Male</label>
+  <br>
+  <fieldset>
+    <legend>Contact details</legend>
+        <label>Email:<br>
+         <input type="text" name="email" /> </label><br>
+        <label>Mobile: <br>
+         <input type="text" name="mobile" /> </label><br>
+        <label>Telephone: <br>
+          <input type="text" name="telephone" /></label>       
+  
+  </fieldset>
+  <br>
+  <fieldset>
+    <p>Which team is most likely to win the 2016-2017 Super Bowl?</p> <br>
+      <input id="steelers" type="radio" name="team" value="Steelers" />
+         <label for="steelers">Steelers</label>
+      <input id="cowboys" type="radio" name="team" value="cowboys" />
+         <label for="cowboys">Cowboys</label>
+      <input id="broncos" type="radio" name="team" value="broncos" />
+         <label for="broncos">Broncos</label>
+      <input id="patriots" type="radio" name="team" value="patriots" />
+         <label for="patriots">Patriots</label>
+  </fieldset>
+  <br>
+  <form>
+      <label for="username">Username</label> <input id="username" type="text" name="username" required="required" /> <br>
+      <label for="password">Password</label> <input id="password" type="password" name="password" required="required" />
+      <input type="submit" value="Submit" />
+  </form>
+  <br>
+  <br>
+  
+  <form>
+  <fieldset>
+    <legend>Your Details:</legend>
+   <label for="name">Name:</label>
+       <input id="name" type="text" name="name" /> <br>
+   <label for="email">Email:</label>
+       <input id="email" type="text" required="required" />
+   </fieldset>
+   
+   <fieldset>
+    
+     <legend>Your Review:</legend>
+         <p>How did you hear about us? <select name="search-engine">
+             <option value="google">Google</option>
+             <option value="bing">Bing</option>
+             <option value="advertisement">Advertisement</option>
+             <option value="other">Other</option>
+          </select></p>
+    <br>
+    
+    <p>Would you visit again? <br>
+      <input id="y" type="radio" name="visit" value="yes" />
+         <label for="y">Yes</label> <br>
+    
+      <input id="n" type="radio" name="visit" value="no" />
+         <label for="n">No</label>
+    
+      <input id="m" type="radio" name="visit" value="maybe" />
+       <label for="m">Maybe</label>
+    </p>
+    <br>
+    
+    <p>Comments:</p>
+      <textarea cols="10" rows="5"></textarea>
+    
+    <br>
+    
+    <p> <input type="checkbox" checked="checked" />Sign me up for email updates</p>
+    
+    <input type="submit" value="Submit review" />
+    
+    
+  
+  </fieldset>
+   <br>
+   <br>
+   
+   <p>Departure date: <input type="date" name="departure" /> <input type="submit" value="Submit" /></p>
+   
+  </form>
+  <hr>
+  <h1><u>Extra Markup</u></h1>
+  
+      <!-- This shit wac yo -->
+  <div id="header">
+     <img src="baseball.jpg" height="100" width="100" />
+        <ul>
+           <li>Home</li>
+           <li>Biography</li>
+           <li>Works</li>
+           <li>Contact</li>
+   
+   </ul>
+  </div>
+  
+  <iframe src="https://www.google.com/maps/place/McKechnie+Field/@27.4856413,-82.5725662,17z/data=!4m6!3m5!1s0x88c3162e62effc9d:0x3b054a6af255b19d!4b1!8m2!3d27.4856413!4d-82.5703775" width="250" height="250" seamless="seamless"></iframe>
+  
+  <hr>
+    <h1><u>Video &amp; Audio</u></h1>
+  <br>
+     <video src="IMG_4067.mov" width="250" height="250" preload="none"><p>A video of 100p shit wac at the University of Notre Dame Intro to Engineering Camp</p></video>
+  <br>
+  
+  <iframe src="https://onedrive.live.com/embed?cid=9106891BD4CB8CDD&resid=9106891BD4CB8CDD%213720&authkey=AL410VT2tawSARk" width="224" height="128" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  
+  
+  <hr>
+  
+  <a href="#top">Top of the Page</a>
+  
+  <hr>
+  
+    <address>
+  <p><a href="mailto:homer@example.com">homer@example.com</a></p>
+     <p>742 Evergreen Terrace, Springfield.</p>
+   
+  
+  
+     </address>
+ 
+ 
+ 
+ 
+ 
+ </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
